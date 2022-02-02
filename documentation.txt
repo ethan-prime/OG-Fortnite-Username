@@ -1,0 +1,18 @@
+!!!!! USED TO OBTAIN OG-LIKE FORTNITE USERNAMES
+!!!!! HOSTED AT -- https://og-fortnite-api.herokuapp.com/
+-----
+GET https://og-fortnite-api.herokuapp.com/check
+
+PAYLOAD:
+
+{
+  "name": "DESIRED_NAME" <string, 3-16 characters> 
+}
+
+RESPONSE:
+
+{
+  "found": "NAME" [or] "none"
+}
+
+-----
